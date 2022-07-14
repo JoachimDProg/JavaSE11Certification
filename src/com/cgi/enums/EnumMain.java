@@ -1,15 +1,12 @@
 package com.cgi.enums;
 
-import com.cgi.functionalinterface.Animal;
-
 import java.util.List;
 
-import static com.cgi.functionalinterface.AnimalLifespan.*;
+import static com.cgi.enums.AnimalLifespan.*;
 import static java.util.List.of;
 
-public class Main {
+public class EnumMain {
     public static void main(String[] args) {
-
         List<Animal> animals = of(
                 new Animal("Cat", CAT.getLifeSpan()),
                 new Animal("Dog", DOG.getLifeSpan()),

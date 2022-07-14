@@ -1,7 +1,6 @@
-package com.cgi.functionalinterface;
+package com.cgi.enums;
 
 public class Animal {
-
     String name;
     int lifeSpan;
 

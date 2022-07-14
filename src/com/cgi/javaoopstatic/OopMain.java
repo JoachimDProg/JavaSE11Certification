@@ -4,7 +4,7 @@ package com.cgi.javaoopstatic;
 import static java.lang.System.out;
 import static com.cgi.javaoopstatic.ConversionHelper.fromNauticalMileToMeters;
 
-public class Main {
+public class OopMain {
     public static void main(String[] args) {
 
         int altitudeInFeet = 28000;
